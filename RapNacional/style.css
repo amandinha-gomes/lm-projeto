@@ -84,6 +84,7 @@ img{
 
 h3{
     font-size: 30px;
+    text-align: center;
 }
 
 span{
@@ -108,7 +109,7 @@ span{
 
 .img4{
     grid-template-columns: auto;
-    display: flex;
+    display: inline-block;
     gap: 30px;
 }
 
@@ -135,10 +136,10 @@ span{
 }
 
 .container4{
-    position: relative;
-    width: 50%;
-    display: flex;
-    gap: 30px;
+    /* position: relative; */
+    width: 50px;
+    display: inline-block; 
+    gap: 30px; 
 }
 
 .image{
@@ -168,11 +169,17 @@ span{
     backface-visibility: hidden;
 }
 
+.img4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
 .image4{
     opacity: 1;
-    display: block;
-    width: 50%;
-    height: auto;
+    /*display: inline;*/
+    /*width: 100%;
+    height: auto;*/
     transition: .5s ease;
     backface-visibility: hidden;
 }
