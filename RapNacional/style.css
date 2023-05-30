@@ -11,6 +11,7 @@ body{
     padding: 15px;
 }
 
+
 header{
     display: flex;
     flex-direction: row;
@@ -109,37 +110,54 @@ span{
 
 .img4{
     grid-template-columns: auto;
-    display: inline-block;
-    gap: 30px;
+    display: flex;
+    gap: 350px;
+    /*justify-content: space-between;*/
+}
+
+.img5{
+    grid-template-columns: auto;
+    display: flex;
+    gap: 5px;
 }
 
 .container{
     position: relative;
     width: 50%;
     display: flex;
-    gap: 30px;
+    gap: 10px;
 }
 
 .container2{
     position: relative;
     width: 50%;
     display: flex;
-    gap: 30px;
+    gap: 10px;
+    justify-content: space-between;
 }
 
 .container3{
     position: relative;
     width: 50%;
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: space-between;
 }
 
 .container4{
-    /* position: relative; */
+    position: relative;
     width: 50px;
-    display: inline-block; 
-    gap: 30px; 
+    display: flex; 
+    gap: 10px; 
+    justify-content: space-between;
+}
+
+.container5{
+    position: relative;
+    width: 50%;
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
 }
 
 .image{
@@ -159,27 +177,31 @@ span{
     transition: .5s ease;
     backface-visibility: hidden;
 }
-    
+
 .image3{
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 50px;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
 }
 
-.img4{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    
-}
 
 .image4{
     opacity: 1;
-    /*display: inline;*/
-    /*width: 100%;
-    height: auto;*/
+    display: flex;
+    width: 480px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image5{
+    opacity: 1;
+    display: block;
+    width: 10px;
+    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
 }
@@ -219,7 +241,17 @@ span{
     opacity: 0;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 450%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.middle5{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
 }
@@ -256,32 +288,51 @@ span{
     opacity: 0.3;
 }
 
+.container5:hover .image5{
+    opacity: 0.3;
+}
+
+.container5:hover .middle5{
+    opacity: 1;
+}
+
 .text{
     background-color: #6128a6;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
+    text-align: center;
     padding: 10px 32px;
 }
 
 .text2{
     background-color: #6128a6;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
+    text-align: center;
     padding: 10px 32px;
-    
 }
 
 .text3{
     background-color: #6128a6;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
+    text-align: center;
     padding: 13px 20px;
 }
 
 .text4{
     background-color: #6128a6;
     color: white;
-    font-size: 16px;
-    padding: 13px 20px;
+    font-size: 20px;
+    padding: 10px 32px;
+    text-align: center;
+    /*position: relative;*/
 }
 
+.text5{
+    background-color: #6128a6;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 32px;
+}
