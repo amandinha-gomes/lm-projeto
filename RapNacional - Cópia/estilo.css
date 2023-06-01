@@ -1,0 +1,357 @@
+*{
+    font-family: Poppins;
+}
+
+body{
+    background: rgb(97,40,166);
+    background: radial-gradient(circle, rgba(97,40,166,0.5775560224089635) 66%, rgba(252,70,107,0.6055672268907564) 93%);
+    color: white;
+    max-width: 1200PX;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #6128a6;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid #6128a6;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: #6128a6;
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+.grid-area-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 15px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+span{
+    color: #6128a6;
+}
+
+p{
+    line-height: 25px;
+    max-width: 500px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+/*IMAGEM DAS CAPAS DOS ALBUNS*/
+img{
+    width: 480px;
+    padding: 25px;
+}
+
+aside h3{
+    font-size: 20px;
+}
+
+
+h3{
+    font-size: 30px;
+    text-align: left;
+}
+
+span{
+    color: #6128a6;
+}
+
+
+.img{
+    grid-template-columns: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.img3{
+    grid-template-columns: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.img4{
+    grid-template-columns: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.img5{
+    grid-template-columns: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.container{
+    position: relative;
+    width: 30%;
+    height: 40%;
+    display: flex;
+    gap: 10px;
+}
+
+.container2{
+    position: relative;
+    width: 30%;
+    height: 40%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.container3{
+    position: relative;
+    width: 30%;
+    height: 40%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.container4{
+    position: relative;
+    width: 30%;
+    height: 40%;
+    display: flex; 
+    gap: 10px; 
+    justify-content: space-between;
+}
+
+.container5{
+    position: relative;
+    width: 30%;
+    height: 40%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image2{
+    opacity: 1;
+    display: block;
+    /*width: 10px;
+    height: auto;*/
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image3{
+    opacity: 1;
+    display: block;
+    /*width: 50px;
+    height: auto;*/
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image4{
+    opacity: 1;
+    display: block;
+    /* width: 480px;
+    height: auto;*/
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image5{
+    opacity: 1;
+    display: block;
+    /* width: 10px;
+    height: auto;*/
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.middle2{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.middle3{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.middle4{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.middle5{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .image{
+    opacity: 0.3;
+}
+
+.container:hover .middle{
+    opacity: 1;
+}
+
+.container2:hover .image2{
+    opacity: 0.3;
+}
+
+.container2:hover .middle2{
+    opacity: 1;
+}
+
+.container3:hover .middle3{
+    opacity: 1;
+}
+
+.container3:hover .image3{
+    opacity: 0.3;
+}
+
+.container4:hover .middle4{
+    opacity: 1;
+}
+
+.container4:hover .image4{
+    opacity: 0.3;
+}
+
+.container5:hover .image5{
+    opacity: 0.3;
+}
+
+.container5:hover .middle5{
+    opacity: 1;
+}
+
+.text{
+    background-color: #6128a6;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 32px;
+}
+
+.text2{
+    background-color: #6128a6;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 32px;
+}
+
+
+.text3{
+    background-color: #6128a6;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 13px 20px;
+}
+
+.text4{
+    background-color: #6128a6;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 13px 20px;
+}
+
+.text5{
+    background-color: #6128a6;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 32px;
+}
+
+button{
+    border-radius: 15px;
+    background-color: rgb(171, 138, 248);
+    opacity: 0.8;
+    padding: 20px;
+}
+
+.class{
+    text-align: right;
+}
+
+button a{
+    color: black;
+}
